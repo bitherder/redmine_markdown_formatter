@@ -1,0 +1,14 @@
+jsToolBar.strings = {};
+jsToolBar.strings['Emphasized'] = '強調';
+jsToolBar.strings['Code'] = 'コード';
+jsToolBar.strings['Keyboard'] = 'キーボード入力';
+jsToolBar.strings['Variable'] = '可変部分';
+jsToolBar.strings['Heading 1'] = '見出し 1';
+jsToolBar.strings['Heading 2'] = '見出し 2';
+jsToolBar.strings['Heading 3'] = '見出し 3';
+jsToolBar.strings['Unordered list'] = '順不同リスト';
+jsToolBar.strings['Ordered list'] = '番号つきリスト';
+jsToolBar.strings['Preformatted'] = '整形済み';
+jsToolBar.strings['Un-preformatted'] = '未整形';
+jsToolBar.strings['Wiki link'] = 'Wiki ページへのリンク';
+jsToolBar.strings['Image'] = '画像';

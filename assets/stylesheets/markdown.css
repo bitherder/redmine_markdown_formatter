@@ -1,0 +1,41 @@
+/* Buttons
+-------------------------------------------------------- */
+.jstb_em {
+	background-image: url(../images/jstoolbar/bt_em.png);
+}
+.jstb_code {
+	background-image: url(../images/jstoolbar/bt_code.png);
+}
+.jstb_kbd {
+	background-image: url(../images/jstoolbar/bt_kbd.png);
+}
+.jstb_var {
+	background-image: url(../images/jstoolbar/bt_var.png);
+}
+.jstb_h1 {
+	background-image: url(../images/jstoolbar/bt_h1.png);
+}
+.jstb_h2 {
+	background-image: url(../images/jstoolbar/bt_h2.png);
+}
+.jstb_h3 {
+	background-image: url(../images/jstoolbar/bt_h3.png);
+}
+.jstb_ul {
+	background-image: url(../images/jstoolbar/bt_ul.png);
+}
+.jstb_ol {
+	background-image: url(../images/jstoolbar/bt_ol.png);
+}
+.jstb_pre {
+	background-image: url(../images/jstoolbar/bt_pre.png);
+}
+.jstb_unpre {
+	background-image: url(../images/jstoolbar/bt_unpre.png);
+}
+.jstb_link {
+	background-image: url(../images/jstoolbar/bt_link.png);
+}
+.jstb_img {
+	background-image: url(../images/jstoolbar/bt_img.png);
+}
