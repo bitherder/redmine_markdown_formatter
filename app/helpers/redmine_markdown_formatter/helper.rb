@@ -3,10 +3,13 @@ module RedmineMarkdownFormatter
     unloadable
 
     def wikitoolbar_for(field_id)
-      file = Engines::RailsExtensions::AssetHelpers.plugin_asset_path('redmine_markdown_formatter', 'help', 'markdown_syntax.html')
+      
+      url = Redmine::Utils.relative_url_root + 
+            Engines::RailsExtensions::AssetHelpers.plugin_asset_path('redmine_markdown_formatter', 'help', 'markdown_syntax.html')
+
       help_link = l(:setting_text_formatting) + ': ' +
-      link_to(l(:label_help), file,
-              :onclick => "window.open(\"#{file}\", \"\", \"resizable=yes, location=no, width=300, height=640, menubar=no, status=no, scrollbars=yes\"); return false;")
+                  link_to(l(:label_help), url,
+                  :onclick => "window.open(\"#{url}\", \"\", \"resizable=yes, location=no, width=300, height=640, menubar=no, status=no, scrollbars=yes\"); return false;")
 
       javascript_include_tag('jstoolbar/jstoolbar') +
         javascript_include_tag('markdown', :plugin => 'redmine_markdown_formatter') +
