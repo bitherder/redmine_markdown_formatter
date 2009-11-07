@@ -99,7 +99,7 @@ type: 'button',
       fn: {
         wiki: function() {
                 this.encloseLineSelection('','',function(str) {
-                  str = str.replace(/r/g,'');
+                  str = str.replace(/\r/g,'');
                   return str.replace(/((?:\n|^)\s*)(\*|\d+\.)?\s*/g,"$1* ");
                 });
         }
@@ -113,7 +113,7 @@ type: 'button',
       fn: {
         wiki: function() {
                 this.encloseLineSelection('','',function(str) {
-                  str = str.replace(/r/g,'');
+                  str = str.replace(/\r/g,'');
                   return str.replace(/((?:\n|^)\s*)(\*|\d+\.)?\s*/g,"$11. ");
                 });
         }
