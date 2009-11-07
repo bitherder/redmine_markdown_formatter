@@ -7,7 +7,8 @@ module RedmineMarkdownFormatter
     end
 
     def to_html(&block)
-      RDiscount.new(@text, :smart).to_html
+      html = RDiscount.new(@text, :smart).to_html
+      html.gsub(/<a\s/, "<a class='external'") # Add the `external` class to every link
     rescue => e
       return("<pre>problem parsing wiki text: #{e.message}\n"+
              "original text: \n"+
