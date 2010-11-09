@@ -27,7 +27,7 @@ Plugin installation
 ### Prerequisites
 
 * Redmine and its prerequisites
-*  [http://tomayko.com/writings/ruby-markdown-libraries-real-cheap-for-you-two-for-price-of-one](rdiscount) gem
+*  [rdiscount](http://tomayko.com/writings/ruby-markdown-libraries-real-cheap-for-you-two-for-price-of-one) gem
 
 ### Installation
 
@@ -40,7 +40,7 @@ Don't forget to change "Text formatting" option under
 Administration -> Settings -> General tab.
 
 ### Credits
-* [http://github.com/yugui](Yuki Sonoda) did the real work by creating the
+* [Yuki Sonoda](http://github.com/yugui) did the real work by creating the
   redmine_rd_formatter
 * Jean-Philippe Lang for making the change to Redmine (based on Yuki's patch) to
   allow pluggable formatters
