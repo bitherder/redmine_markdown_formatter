@@ -12,11 +12,10 @@ See [the official site](http://www.redmine.org) for more details.
 
 What is Markdown?
 -----------------
-(from [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/))
+
 Markdown is a text-to-HTML conversion tool for web writers. Markdown allows
 you to write using an easy-to-read, easy-to-write plain text format, then
 convert it to structurally valid XHTML (or HTML).
-
 
 See [the article on John Gruber's blog](http://daringfireball.net/projects/markdown/)
 for more details.
@@ -26,22 +25,24 @@ Plugin installation
 -------------------
 
 ### Prerequisites
+
 * Redmine and its prerequisites
-* rdiscount gem - see http://tomayko.com/writings/ruby-markdown-libraries-real-cheap-for-you-two-for-price-of-one
+*  [http://tomayko.com/writings/ruby-markdown-libraries-real-cheap-for-you-two-for-price-of-one](rdiscount) gem
 
 ### Installation
 
-(1) Copy the plugin directory into the vendor/plugins directory
-(2) Start Redmine
+1. Copy the plugin directory into the vendor/plugins directory
+2. Start Redmine
 
 Installed plugins are listed on 'Admin -> Information' screen.
 
-Don't forget to change "Text formatting" option under Administration -> Settings -> General tab.
+Don't forget to change "Text formatting" option under
+Administration -> Settings -> General tab.
 
 ### Credits
-* Yuki Sonoda (http://github.com/yugui) did the real work by creating the
+* [http://github.com/yugui](Yuki Sonoda) did the real work by creating the
   redmine_rd_formatter
-* Jean-Philippe Lang for making the change to RedMine (based on Yuki's patch) to
+* Jean-Philippe Lang for making the change to Redmine (based on Yuki's patch) to
   allow pluggable formatters
 
 ### Future Plans
